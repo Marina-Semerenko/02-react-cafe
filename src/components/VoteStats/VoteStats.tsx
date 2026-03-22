@@ -13,7 +13,7 @@ export default function VoteStats ({
   votes, 
   totalFeedback, 
   positiveFeedback 
-}: VoteStatsProps): JSX.Element {
+}: VoteStatsProps) {
 
   return (
     <div className={styles.container}>
